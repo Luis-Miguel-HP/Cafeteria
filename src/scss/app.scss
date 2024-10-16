@@ -1,0 +1,14 @@
+$color: blue;
+$color2: green;
+$color3: yellow;
+
+body{
+    background-color: $color3;
+    display: flex;
+}
+
+h1{
+    color: $color2;
+}
+
+

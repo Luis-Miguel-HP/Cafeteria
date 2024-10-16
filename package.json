@@ -1,0 +1,28 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiendo sass, gulp y css grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-Miguel-HP/Cafeteria.git"
+  },
+  "author": "Luis Miguel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-Miguel-HP/Cafeteria/issues"
+  },
+  "homepage": "https://github.com/Luis-Miguel-HP/Cafeteria#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gulp": "^5.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "i": "^0.3.7",
+    "postcss": "^8.4.47",
+    "sass": "^1.79.5"
+  }
+}
