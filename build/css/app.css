@@ -1,8 +1,18 @@
+.header {
+  display: flex;
+  grid-template-columns: 3rem;
+}
+
+h2 {
+  color: blueviolet;
+}
+
 body {
   background-color: yellow;
   display: flex;
 }
 
 h1 {
-  color: green;
+  color: blue;
+  background: color blue;
 }

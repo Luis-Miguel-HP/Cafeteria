@@ -1,3 +1,10 @@
+@import "header/header";
+@import "header/h1";
+// @use "header/header" --> va remplazar a import
+
+
+
+
 $color: blue;
 $color2: green;
 $color3: yellow;
@@ -8,7 +15,8 @@ body{
 }
 
 h1{
-    color: $color2;
+    color: $color;
+    background: color $color;
 }
 
 

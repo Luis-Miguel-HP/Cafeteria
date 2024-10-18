@@ -1,5 +1,4 @@
 
-
 const {src, dest,watch, series,} = require('gulp');
 const  sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
@@ -18,8 +17,12 @@ function css(done){
 function dev(){
 
 
-    watch('src/scss/app.scss', css );
+    // watch("src/scss/header/_header.scss")
 
+    watch("src/scss/**/*.scss", css)
+
+
+  
 
 
 }
